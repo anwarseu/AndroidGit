@@ -36,6 +36,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     println("This is second commit")
     println("=============rebase practice=============")
     println("This is first commit in main")
+    println("This is second commit in main")
     Text(
         text = "Hello $name!",
         modifier = modifier
