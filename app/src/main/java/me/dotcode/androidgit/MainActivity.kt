@@ -32,6 +32,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
+    println("This is first commit")
     Text(
         text = "Hello $name!",
         modifier = modifier
